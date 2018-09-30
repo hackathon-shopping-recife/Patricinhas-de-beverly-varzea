@@ -1,0 +1,49 @@
+PODS:
+  - FaveButton (3.0.0)
+  - Firebase/CoreOnly (5.9.0):
+    - FirebaseCore (= 5.1.4)
+  - Firebase/Database (5.9.0):
+    - Firebase/CoreOnly
+    - FirebaseDatabase (= 5.0.3)
+  - FirebaseCore (5.1.4):
+    - GoogleUtilities/Logger (~> 5.2)
+  - FirebaseDatabase (5.0.3):
+    - FirebaseCore (~> 5.0)
+    - leveldb-library (~> 1.18)
+  - GoogleUtilities/Environment (5.3.0)
+  - GoogleUtilities/Logger (5.3.0):
+    - GoogleUtilities/Environment
+  - GTProgressBar (0.3.0)
+  - leveldb-library (1.20)
+  - OneSignal (2.8.9)
+
+DEPENDENCIES:
+  - FaveButton
+  - Firebase/Database
+  - GTProgressBar (~> 0.3)
+  - OneSignal (< 3.0, >= 2.6.2)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FaveButton
+    - Firebase
+    - FirebaseCore
+    - FirebaseDatabase
+    - GoogleUtilities
+    - GTProgressBar
+    - leveldb-library
+    - OneSignal
+
+SPEC CHECKSUMS:
+  FaveButton: 1fa9cd7b037d7164e229765401931271adbe3a23
+  Firebase: 383fa29aca93e371cab776b48a5c66544d3c2003
+  FirebaseCore: 2a84b6b325792a4319ef71ee18819dcba08d2fd7
+  FirebaseDatabase: e2bcbc106adc4b11a2da3ec2eb63c0c4a44f2f54
+  GoogleUtilities: 760ccb53b7c7f40f9c02d8c241f76f841a7a6162
+  GTProgressBar: de0d8b060255025b590c9a2fe55846394a674de0
+  leveldb-library: 08cba283675b7ed2d99629a4bc5fd052cd2bb6a5
+  OneSignal: 0fb3522620d392195ed8e90e4e96717c6085df45
+
+PODFILE CHECKSUM: 134d8867f19a7216bee797e1aabb194413d9e694
+
+COCOAPODS: 1.5.3
